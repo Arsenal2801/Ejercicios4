@@ -4,11 +4,12 @@
  * del programa se debe repetir utilizando do-while y en cada ejecución del
  * programa cambiar el tamaño del arreglo que se va a ordenar.
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(){
-    int *arreglo, n, i, j, aux;
+    int *arreglo=NULL, n, i, j, aux;
     do{
         printf("Ingrese el tamaño del arreglo: ");
         scanf("%d", &n);
