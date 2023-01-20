@@ -8,14 +8,10 @@
 #include <stdlib.h>
 
 int main(){
-    // ! Declaración de variables
     int *arreglo, n, i, j, aux;
-    // ! Ciclo do-while
     do{
-        // ! Ingreso de datos
         printf("Ingrese el tamaño del arreglo: ");
         scanf("%d", &n);
-        // ! Reasignación de memoria
         arreglo = (int *)realloc(arreglo, n * sizeof(int));
         for(i = 0; i < n; i++){
             printf("Ingrese el elemento %d: ", i + 1);
